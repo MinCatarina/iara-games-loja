@@ -1,6 +1,6 @@
 # Iara Games — Loja (React)
 
-Área **Loja** da plataforma Iara Games, desenvolvida em **React + Vite**. Catálogo com os 22 jogos da plataforma (jogos feitos por brasileiros ou ambientados no Brasil), com busca, filtros, ordenação, favoritos, detalhes do jogo e carrinho de compras.
+Área **Loja** da plataforma Iara Games, desenvolvida em **React**. Catálogo com os 22 jogos da plataforma (jogos feitos por brasileiros ou ambientados no Brasil), com busca, filtros, ordenação, favoritos, detalhes do jogo e carrinho de compras.
 
 ## Funcionalidades
 
