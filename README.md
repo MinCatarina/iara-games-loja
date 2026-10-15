@@ -31,29 +31,3 @@ iara-loja/
     ├── utils/              # format.js, useLocalStorage.js (hook)
     └── styles/global.css
 ```
-
-## Conceitos de React utilizados
-
-`useState`, `useMemo`, `useEffect`, Context API (`createContext`/`useContext`), hook customizado (`useLocalStorage`), renderização de listas com `key`, renderização condicional e composição de componentes com props.
-
-## Como rodar localmente
-
-Requer [Node.js](https://nodejs.org) 18 ou superior.
-
-```bash
-npm install
-npm run dev      # abre em http://localhost:5173
-npm run build    # gera a pasta dist/ para hospedagem
-```
-
-## Hospedagem
-
-**Vercel** (recomendado): em vercel.com, "Add New → Project", importe este repositório e clique em Deploy (o Vite é detectado automaticamente).
-
-**Netlify**: "Add new site → Import an existing project", comando de build `npm run build` e pasta de publicação `dist`.
-
-Como o `vite.config.js` usa `base: "./"`, o build também funciona em subpastas (ex.: GitHub Pages).
-
-## Observação sobre os dados
-
-Nomes, preços e imagens vêm do site HTML do projeto. Os gêneros (exceto os dos 5 jogos com página própria), as notas dos jogos sem página própria, os selos "Novo/Essencial" e os textos de descrição são **dados de exemplo** para demonstrar os filtros.
